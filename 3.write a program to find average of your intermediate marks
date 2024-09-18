@@ -1,0 +1,18 @@
+//write a program to find average of your intermediate marks
+
+#include <stdio.h>
+
+int main(){
+    int maths1A=74;
+    int maths1B=75;
+    int physics1=59;
+    int chemistry1=60;
+    int maths2A=73;
+    int maths2B=75;
+    int physics2=57;
+    int chemistry2=60;
+    
+    int avg = (maths1A+maths1B+physics1+chemistry1+maths2A+maths2B+physics2+chemistry2)/8;
+    printf("Average Intermediate marks = %d",avg);
+    return 0;
+}
