@@ -1,0 +1,17 @@
+//4.write a program to find simple interest
+#include <stdio.h>
+
+int main(){
+    float principal,rate,time,simpleInterest;
+    printf("Enter principal amount: ");
+    scanf("%f",&principal);
+    printf("Enter annual interest rate: ");
+    scanf("%f",&rate);
+    printf("Enter time period(years): ");
+    scanf("%f",&time);
+    
+    simpleInterest = (principal * time * rate)/100;
+    
+    printf("Simple Interest is %.2f",simpleInterest);
+    return 0;
+}
